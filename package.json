@@ -1,0 +1,30 @@
+{
+  "name": "types-dirty-chai",
+  "version": "0.1.0",
+  "description": "TypeScript definitions for the \"Dirty Chai\" package",
+  "main": "index.d.ts",
+  "keywords": [
+    "typescript",
+    "chai",
+    "mocha"
+  ],
+  "author": {
+    "name": "Phil Gates-Shannon",
+    "email": "phil.gs@gmail.com",
+    "url": "http://philgs.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/philgs/types-dirty-chai.git"
+  },
+  "license": "BSD-3-Clause",
+  "private": true,
+  "peerDependencies": {
+    "@types/chai": "^4.0.0",
+    "chai": "^4.0.2",
+    "dirty-chai": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.0.0"
+  }
+}
