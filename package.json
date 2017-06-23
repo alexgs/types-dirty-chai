@@ -1,6 +1,6 @@
 {
   "name": "types-dirty-chai",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "TypeScript definitions for the \"Dirty Chai\" package",
   "main": "index.d.ts",
   "keywords": [

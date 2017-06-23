@@ -5,9 +5,16 @@ declare global {
     export namespace Chai {
 
         interface Assertion extends LanguageChains, NumericComparison, TypeComparison {
+            calledOnce(): Assertion;
+            calledTwice(): Assertion;
+            exist(): Assertion;
+            false(): Assertion;
             ok(): Assertion;
             true(): Assertion;
-            false(): Assertion;
+
+            be: Assertion;
+            been: Assertion;
+            have: Assertion;
         }
     }
 }
