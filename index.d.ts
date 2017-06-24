@@ -15,6 +15,7 @@ declare global {
             be: Assertion;
             been: Assertion;
             have: Assertion;
+            to: Assertion;
         }
     }
 }
