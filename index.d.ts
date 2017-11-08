@@ -7,6 +7,7 @@ declare global {
         interface Assertion extends LanguageChains, NumericComparison, TypeComparison {
             calledOnce(): Assertion;
             calledTwice(): Assertion;
+            calledWith( ...args:Array<any> ): Assertion;
             exist(): Assertion;
             false(): Assertion;
             ok(): Assertion;
